@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  goserver:
+    build: 
+      dockerfile: Dockerfile
+    image: nonroot:v1
+    ports:
+    - "80:80"
